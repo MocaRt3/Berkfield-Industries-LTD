@@ -1,0 +1,175 @@
+@media(max-width: 1200px){
+	.navigation{
+		&__title{
+			font-size: 20px;
+		}
+		&__alt{
+			font-size: 16px;
+		}
+	}
+	.greyBlock{
+		height: 300px;
+		&__red-line{
+			height: 300px;
+		}
+		&__text{
+			font-size: 30px;
+			padding:40px 0 20px 80px ;
+
+		}
+		&__title{
+			font-size: 48px;
+		}
+	}
+	.whatIs{
+		&__title{
+			font-size: 30px;
+			letter-spacing: 3px;
+		}
+		&__answer{
+			font-size: 18px;
+		}
+	}
+	.footer__container{
+
+	}
+	.adress{
+		&__title{
+			font-size: 18px;
+
+		}
+		&__text{
+			font-size: 16px;
+		}
+	}
+	.contact{
+				&__title{
+			font-size: 18px;
+		}
+		&__text{
+			font-size: 16px;
+		}
+	}
+	.questions{
+		&__title{
+			font-size: 30px;
+		}
+		&__button{
+			font-size: 20px;
+		}
+		&__content{
+			font-size: 18px;
+		}
+	}
+}
+
+@media(max-width:800px){
+	.footer__container{
+		flex-direction: column;
+		row-gap: 40px;
+		
+	}
+		.adress{
+		&__title{
+			font-size: 18px;
+			margin: 0 0 10px 0;
+		}
+		&__text{
+			font-size: 16px;
+		}
+	}
+	.contact{
+			&__title{
+			font-size: 18px;
+			margin: 0 0 10px 0;
+		}
+		&__text{
+			font-size: 16px;
+		}
+	}
+}
+
+@media(max-width: 560px){
+	.header{
+		margin: 0 0 30px 0;
+		height: 70px;
+	}
+	.navigation{
+		padding: 0 20px;
+		height: 70px;
+		&__title{
+			font-size: 14px;
+		}
+		&__alt{
+			font-size: 14px;
+		}
+	}
+	.main{
+		&__container{
+			padding: 0 20px;
+		}
+	}
+	.greyBlock{
+		height: 210px;
+		margin: 0 0 30px 0;
+		&__red-line{
+			height: 210px;
+		}
+		&__text{
+			font-size: 22px;
+			padding:40px 0 10px 40px ;
+
+		}
+		&__title{
+			font-size: 26px;
+			padding: 0 0 0 40px ;
+		}
+	}
+	.whatIs{
+		&__title{
+			font-size: 26px;
+		}
+		&__answer{
+			font-size: 16px;
+		}
+		&__sub-title{
+			font-size: 16px;
+		}
+		&__item{
+			font-size: 14px;
+		}
+		&__item span{
+			width: 7px;
+			height: 7px;
+		}
+	}
+	.questions{
+		padding: 20px;
+		&__title{
+			font-size: 24px;
+		}
+		&__button{
+			font-size: 18px;
+		}
+		&__content{
+			font-size: 16px;
+		}
+	}
+	.footer__container{
+		padding: 40px 20px;
+	}
+}
+
+
+
+@media (max-width: 340px){
+	.navigation{
+		padding: 0 8px;
+	}
+	.main__container{
+		padding: 0 8px;
+	}
+	.questions{
+		padding: 30px 10px;
+	}
+}
