@@ -87,6 +87,10 @@
 			font-size: 16px;
 		}
 	}
+	.ourWorks__img{
+		height: 400px;
+		width: 250px;
+	}
 }
 
 @media(max-width: 560px){
@@ -131,6 +135,7 @@
 		}
 		&__answer{
 			font-size: 16px;
+			line-height: 140%;
 		}
 		&__sub-title{
 			font-size: 16px;
@@ -153,10 +158,28 @@
 		}
 		&__content{
 			font-size: 16px;
+			line-height: 140%;
 		}
 	}
 	.footer__container{
 		padding: 40px 20px;
+	}
+	.ourWorks__img{
+		height: 350px;
+		width: 200px;
+	}
+	.ourWorks__container{
+		column-gap: 15px;
+	}
+}
+@media(max-width:465px){
+	.ourWorks__container{
+		flex-direction: column;
+	}
+	.ourWorks__img{
+		height: 450px;
+		width: 400px;
+		margin: 0 0 15px 0;
 	}
 }
 

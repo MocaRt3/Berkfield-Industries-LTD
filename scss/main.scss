@@ -135,6 +135,24 @@
 	}
 }
 
+.ourWorks {
+	margin: 0 0 80px 0;
+	&__container{
+		display: flex;
+		column-gap: 60px;
+	}
+	&__title {
+	}
+	&__text {
+		
+	}
+
+	&__img {
+		
+	}
+}
+
+
 
 .questions {
 	background-color: #e6e2e2;
